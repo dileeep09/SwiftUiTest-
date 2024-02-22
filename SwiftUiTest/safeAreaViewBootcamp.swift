@@ -20,7 +20,7 @@ struct safeAreaViewBootcamp: View {
                 Text("Save".uppercased())
                     .foregroundColor(.white)
                     .font(.headline)
-//                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .padding()
                     .padding(.horizontal,60)
                     .background(
