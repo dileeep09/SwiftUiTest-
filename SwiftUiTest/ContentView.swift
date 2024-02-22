@@ -6,22 +6,39 @@
 //
 
 import SwiftUI
+import MediaPlayer
 
 struct ContentView: View {
+    @State private var mediaItems: [MPMediaItem] = []
+
     var body: some View {
-        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-            Text("Hello, Dileep")
-                .font(.title)
-                .fontWeight(.semibold)
-                .foregroundColor(Color.red)
+        List(mediaItems, id: \.playbackStoreID) { mediaItem in
+            Text(mediaItem.title ?? "Unknown Title")
+                .padding()
+                .foregroundColor(.red)
         }
-        .padding()
+        .onAppear {
+            requestMediaLibraryPermission()
+        }
+    }
+
+    func requestMediaLibraryPermission() {
+        MPMediaLibrary.requestAuthorization { status in
+            if status == .authorized {
+                fetchMediaItems()
+            } else {
+                // Handle authorization failure
+              print("Error")
+            }
+        }
+    }
+
+    func fetchMediaItems() {
+        let mediaQuery = MPMediaQuery()
+        guard let items = mediaQuery.items else {
+            return
+        }
+        mediaItems = items
     }
 }
 
-#Preview {
-    ContentView()
-}

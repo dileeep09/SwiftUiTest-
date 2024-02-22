@@ -21,6 +21,9 @@
 		4C5E6D912B836DC200526BA9 /* SwiftUIShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D902B836DC200526BA9 /* SwiftUIShapes.swift */; };
 		4C5E6D932B83775100526BA9 /* SwiftUIViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D922B83775000526BA9 /* SwiftUIViewColors.swift */; };
 		4C64FCDA2B87270F00173FE7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FCD92B87270F00173FE7 /* WebView.swift */; };
+		4C64FCDC2B87439D00173FE7 /* NavigationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FCDB2B87439D00173FE7 /* NavigationTest.swift */; };
+		4C64FCDE2B87528300173FE7 /* Ifelse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FCDD2B87528200173FE7 /* Ifelse.swift */; };
+		4C64FCE02B8757A900173FE7 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FCDF2B8757A900173FE7 /* Animations.swift */; };
 		4C6695622B849C9B00388EF7 /* SwiftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6695612B849C9B00388EF7 /* SwiftImage.swift */; };
 		4C6695642B84A67900388EF7 /* bckground&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6695632B84A67900388EF7 /* bckground&Overlays.swift */; };
 		4CEA95C92B85BDD40062F801 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA95C82B85BDD40062F801 /* Stacks.swift */; };
@@ -67,6 +70,10 @@
 		4C5E6D902B836DC200526BA9 /* SwiftUIShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShapes.swift; sourceTree = "<group>"; };
 		4C5E6D922B83775000526BA9 /* SwiftUIViewColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewColors.swift; sourceTree = "<group>"; };
 		4C64FCD92B87270F00173FE7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4C64FCDB2B87439D00173FE7 /* NavigationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTest.swift; sourceTree = "<group>"; };
+		4C64FCDD2B87528200173FE7 /* Ifelse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ifelse.swift; sourceTree = "<group>"; };
+		4C64FCDF2B8757A900173FE7 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		4C64FCE12B876D7D00173FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4C6695612B849C9B00388EF7 /* SwiftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImage.swift; sourceTree = "<group>"; };
 		4C6695632B84A67900388EF7 /* bckground&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bckground&Overlays.swift"; sourceTree = "<group>"; };
 		4CEA95C82B85BDD40062F801 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
@@ -126,6 +133,7 @@
 		4C5E6D632B8333A700526BA9 /* SwiftUiTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C64FCE12B876D7D00173FE7 /* Info.plist */,
 				4C5E6D642B8333A700526BA9 /* SwiftUiTestApp.swift */,
 				4C5E6D662B8333A700526BA9 /* ContentView.swift */,
 				4C5E6D8E2B83651E00526BA9 /* SwiftUIText.swift */,
@@ -143,6 +151,9 @@
 				4C5457372B870B3300B07221 /* ExractingFunctions.swift */,
 				4C64FCD92B87270F00173FE7 /* WebView.swift */,
 				4CEA95D22B85FC0F0062F801 /* ScrollViewUI.swift */,
+				4C64FCDB2B87439D00173FE7 /* NavigationTest.swift */,
+				4C64FCDD2B87528200173FE7 /* Ifelse.swift */,
+				4C64FCDF2B8757A900173FE7 /* Animations.swift */,
 				4CEA95D42B860AA40062F801 /* safeAreaViewBootcamp.swift */,
 				4C5E6D682B8333AB00526BA9 /* Assets.xcassets */,
 				4C5E6D6A2B8333AB00526BA9 /* Preview Content */,
@@ -308,6 +319,7 @@
 				4CEA95C92B85BDD40062F801 /* Stacks.swift in Sources */,
 				4CEA95CD2B85D8C10062F801 /* Spacer.swift in Sources */,
 				4C5E6D672B8333A700526BA9 /* ContentView.swift in Sources */,
+				4C64FCDE2B87528300173FE7 /* Ifelse.swift in Sources */,
 				4C5E6D912B836DC200526BA9 /* SwiftUIShapes.swift in Sources */,
 				4CEA95D12B85F5D40062F801 /* Foreach.swift in Sources */,
 				4C6695642B84A67900388EF7 /* bckground&Overlays.swift in Sources */,
@@ -317,12 +329,14 @@
 				4C5457382B870B3300B07221 /* ExractingFunctions.swift in Sources */,
 				4C5E6D8F2B83651E00526BA9 /* SwiftUIText.swift in Sources */,
 				4C5E6D652B8333A700526BA9 /* SwiftUiTestApp.swift in Sources */,
+				4C64FCDC2B87439D00173FE7 /* NavigationTest.swift in Sources */,
 				4C3A45FB2B84725800C8AA0C /* Gradients.swift in Sources */,
 				4CEA95CB2B85CDF50062F801 /* Padding.swift in Sources */,
 				4CEA95D52B860AA40062F801 /* safeAreaViewBootcamp.swift in Sources */,
 				4C64FCDA2B87270F00173FE7 /* WebView.swift in Sources */,
 				4C3A45FD2B84756900C8AA0C /* SystemIcons.swift in Sources */,
 				4CEA95D32B85FC0F0062F801 /* ScrollViewUI.swift in Sources */,
+				4C64FCE02B8757A900173FE7 /* Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,9 +500,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 277GPQ33HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUiTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Test;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "To show device media in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -520,9 +537,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUiTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 277GPQ33HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUiTest/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Test;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "To show device media in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
