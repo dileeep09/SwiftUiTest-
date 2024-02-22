@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C3A45FB2B84725800C8AA0C /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A45FA2B84725800C8AA0C /* Gradients.swift */; };
 		4C3A45FD2B84756900C8AA0C /* SystemIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A45FC2B84756900C8AA0C /* SystemIcons.swift */; };
+		4C5457382B870B3300B07221 /* ExractingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5457372B870B3300B07221 /* ExractingFunctions.swift */; };
 		4C5E6D652B8333A700526BA9 /* SwiftUiTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D642B8333A700526BA9 /* SwiftUiTestApp.swift */; };
 		4C5E6D672B8333A700526BA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D662B8333A700526BA9 /* ContentView.swift */; };
 		4C5E6D692B8333AB00526BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E6D682B8333AB00526BA9 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		4C5E6D8F2B83651E00526BA9 /* SwiftUIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D8E2B83651E00526BA9 /* SwiftUIText.swift */; };
 		4C5E6D912B836DC200526BA9 /* SwiftUIShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D902B836DC200526BA9 /* SwiftUIShapes.swift */; };
 		4C5E6D932B83775100526BA9 /* SwiftUIViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E6D922B83775000526BA9 /* SwiftUIViewColors.swift */; };
+		4C64FCDA2B87270F00173FE7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64FCD92B87270F00173FE7 /* WebView.swift */; };
 		4C6695622B849C9B00388EF7 /* SwiftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6695612B849C9B00388EF7 /* SwiftImage.swift */; };
 		4C6695642B84A67900388EF7 /* bckground&Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6695632B84A67900388EF7 /* bckground&Overlays.swift */; };
 		4CEA95C92B85BDD40062F801 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA95C82B85BDD40062F801 /* Stacks.swift */; };
@@ -50,6 +52,7 @@
 /* Begin PBXFileReference section */
 		4C3A45FA2B84725800C8AA0C /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		4C3A45FC2B84756900C8AA0C /* SystemIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIcons.swift; sourceTree = "<group>"; };
+		4C5457372B870B3300B07221 /* ExractingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExractingFunctions.swift; sourceTree = "<group>"; };
 		4C5E6D612B8333A700526BA9 /* SwiftUiTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5E6D642B8333A700526BA9 /* SwiftUiTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiTestApp.swift; sourceTree = "<group>"; };
 		4C5E6D662B8333A700526BA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		4C5E6D8E2B83651E00526BA9 /* SwiftUIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIText.swift; sourceTree = "<group>"; };
 		4C5E6D902B836DC200526BA9 /* SwiftUIShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIShapes.swift; sourceTree = "<group>"; };
 		4C5E6D922B83775000526BA9 /* SwiftUIViewColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewColors.swift; sourceTree = "<group>"; };
+		4C64FCD92B87270F00173FE7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		4C6695612B849C9B00388EF7 /* SwiftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImage.swift; sourceTree = "<group>"; };
 		4C6695632B84A67900388EF7 /* bckground&Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bckground&Overlays.swift"; sourceTree = "<group>"; };
 		4CEA95C82B85BDD40062F801 /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				4CEA95CC2B85D8C10062F801 /* Spacer.swift */,
 				4CEA95CE2B85DBDB0062F801 /* Initializer.swift */,
 				4CEA95D02B85F5D40062F801 /* Foreach.swift */,
+				4C5457372B870B3300B07221 /* ExractingFunctions.swift */,
+				4C64FCD92B87270F00173FE7 /* WebView.swift */,
 				4CEA95D22B85FC0F0062F801 /* ScrollViewUI.swift */,
 				4CEA95D42B860AA40062F801 /* safeAreaViewBootcamp.swift */,
 				4C5E6D682B8333AB00526BA9 /* Assets.xcassets */,
@@ -308,11 +314,13 @@
 				4C5E6D932B83775100526BA9 /* SwiftUIViewColors.swift in Sources */,
 				4CEA95CF2B85DBDB0062F801 /* Initializer.swift in Sources */,
 				4C6695622B849C9B00388EF7 /* SwiftImage.swift in Sources */,
+				4C5457382B870B3300B07221 /* ExractingFunctions.swift in Sources */,
 				4C5E6D8F2B83651E00526BA9 /* SwiftUIText.swift in Sources */,
 				4C5E6D652B8333A700526BA9 /* SwiftUiTestApp.swift in Sources */,
 				4C3A45FB2B84725800C8AA0C /* Gradients.swift in Sources */,
 				4CEA95CB2B85CDF50062F801 /* Padding.swift in Sources */,
 				4CEA95D52B860AA40062F801 /* safeAreaViewBootcamp.swift in Sources */,
+				4C64FCDA2B87270F00173FE7 /* WebView.swift in Sources */,
 				4C3A45FD2B84756900C8AA0C /* SystemIcons.swift in Sources */,
 				4CEA95D32B85FC0F0062F801 /* ScrollViewUI.swift in Sources */,
 			);

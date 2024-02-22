@@ -6,13 +6,33 @@
 //
 
 import SwiftUI
-
+import WebKit
 struct WebView: View {
+    private let urlString:String="https://www.youtube.com/"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment:.leading){
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image(systemName: "arrow.backward")
+                    .accentColor(.black)
+                    .fontWeight(.bold)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                
+            })
+            .padding(.horizontal,10)
+            MainView1(url: URL(string:urlString)!)
+        }
     }
 }
-
+struct MainView1:UIViewRepresentable{
+    var url: URL
+    func makeUIView(context: Context) ->WKWebView {
+       return WKWebView()
+    }
+    func updateUIView(_ webView: WKWebView, context: Context) {
+     let request=URLRequest(url: url)
+        webView.load(request)
+    }
+}
 #Preview {
     WebView()
 }
